@@ -72,14 +72,12 @@ function froggy(a, b, prevSong = "") {
             if (NumberGauche === 0) {
                 nbHandGauche + 1;
                 return listeSongs[NumberGauche + 1];
-                // return "Je suis une grenouille !" + 1;
             } else if (NumberGauche == 1) {
                 nbHandGauche + 1;
                 return listeSongs[NumberGauche + 1];
                 // return "J'adore la pluie !" + 1;
             } else if (NumberGauche === 2) {
-                return listeSongs[0];
-                // return "J'adore la pluie !"
+                return listeSongs[0]; 
             } else {
                 return "Je suis une grenouille !"
             }
